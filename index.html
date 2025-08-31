@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰 Change Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Change Calculator</h1>
+            <p>Enter an amount to see the breakdown in bills and coins.</p>
+        </header>
+
+        <div class="input-section">
+            <input type="text" id="totalAmount" placeholder="Enter amount or get random">
+            <button id="randomBtn">Random</button>
+            <button id="calculateBtn">Calculate</button>
+        </div>
+
+        <div id="results" class="results-grid">
+            <!-- Results will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
